@@ -1,0 +1,167 @@
+@font-face 
+{
+    font-family: 'AvenirBold';
+    src: url('AvenirLTStd-Black.otf') format('opentype');
+}
+@font-face 
+{
+    font-family: 'Avenir';
+    src: url('Avenir\ Light.ttf') format('truetype');
+}
+@font-face  
+{
+    font-family: 'Bangla';
+    src: url('Bangla\ MN.ttf') format('truetype');
+}
+
+body.a
+{
+    background-image: linear-gradient(to right, rgb(0, 23, 66), rgb(0,160,229), rgb(101,218,255), rgb(189,241,255), rgb(239,253,255));
+}
+
+body.b
+{
+
+    background-image: linear-gradient(to bottom, rgb(0, 23, 66), rgb(0,160,229), rgb(101,218,255), rgb(189,241,255), rgb(239,253,255));    
+}
+
+table
+{
+    margin: auto;
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    font-family: 'Avenir';
+    color: white; 
+    font-size: 25px;
+}
+
+table.a
+{
+    margin: auto;
+    text-align: left;
+    width: 1100px;
+    height: 1000px;
+    font-family: 'Avenir';
+    color: white; 
+    font-size: 20px;
+}
+
+img.a 
+{
+    width: 35px;
+    height: 35px;
+}
+
+img.b
+{
+    width: 150px;
+    height: 150px;
+    align-self: right;
+    float: right;
+}
+
+img.c
+{
+    float: left;
+}
+
+img.noruega
+{
+    width: 350px;
+    height: 275px;
+}
+
+img.alemanha
+{
+    width: 275px;
+    height: 350px;
+}
+
+img.eua
+{
+    width: 400px;
+    height: 275px;
+}
+
+img.suecia
+{
+    width: 250px;
+    height: 325px;
+}
+
+img.atletas
+{
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+td.a
+{
+    color: rgb(189,241,255);
+}
+
+td.b
+{
+    color: rgb(0,160,229);
+}
+
+td.c
+{
+    color: rgb(5, 119, 168);
+}
+
+td.d
+{
+    font-family: "Bangla";
+    color: rgb(0, 23, 66);
+    font-size: 50px;
+}
+
+h1
+{
+    font-family: 'Avenir';
+    color: white;
+    font-size: 45px;
+    margin: auto;
+}
+
+h1.a
+{
+    font-family: 'Avenir';
+    color: white;
+    font-size: 25px;
+    margin: auto;
+}
+
+h2
+{
+    font-family: 'Avenir';
+    color: white;
+    font-size: 20px;
+    margin: auto; 
+}
+
+h2.a
+{
+    font-family: 'Avenir';
+    color: white;
+    font-size: 15px;
+    margin: auto;
+}
+
+a:link
+{
+    color: rgb(0,160,229);
+}
+
+a:visited
+{
+    color: rgb(0,160,229);
+}
+
+tr.a
+{
+    color: rgb(0,160,229);
+}
